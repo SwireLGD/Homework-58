@@ -28,4 +28,4 @@ const Alert: React.FC<Props> = ({ type, onDismiss, show, children }) => {
    );
 };
 
-export default Alert
+export default Alert;

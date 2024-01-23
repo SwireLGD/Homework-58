@@ -4,7 +4,7 @@ import Modal from '../Modal/Modal';
 interface MessagesListProps {
   messages: string[];
   addMessage: (message: string) => void;
-}
+};
 
 const MessagesList: React.FC<MessagesListProps> = ({ messages, addMessage }) => {
     const [showModal, setShowModal] = useState(false);
